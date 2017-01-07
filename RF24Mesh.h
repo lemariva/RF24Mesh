@@ -44,8 +44,8 @@
   #include <RF24Network/RF24Network.h>
   #define RF24_LINUX
 #else
-  #include <RF24.h>
-  #include <RF24Network.h>
+  #include "RF24.h"
+  #include "RF24Network.h"
 #endif
 
   #include <stddef.h>
